@@ -2,12 +2,12 @@ import React from 'react';
 
 const AddUser = () => {
 
-  const addUserHandler = () => {
-      
+  const addUserHandler = (event) => {
+      event.preventDefault();
   }
 
   return (    
-    <form onSubmit={}>
+    <form onSubmit={addUserHandler}>
       <label htmlFor="username">Username</label>
       <input id="username" type="text" />
       <label htmlFor="age">Age (Years)</label>
