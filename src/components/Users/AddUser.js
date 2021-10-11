@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Card from '../UI/Card';
+
 const AddUser = () => {
   const addUserHandler = (event) => {
     event.preventDefault();
