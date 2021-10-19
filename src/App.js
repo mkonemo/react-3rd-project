@@ -1,12 +1,14 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-import AddUser from "./components/Users/AddUser"
+import AddUser from './components/Users/AddUser';
+import UsersList from './components/Users/UsersList';
 
 export default function App() {
   return (
     <div>
-      <AddUser/>
+      <AddUser />
+      <UsersList />
     </div>
   );
 }
